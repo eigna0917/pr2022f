@@ -6,27 +6,70 @@
 
   
 
-  
+  <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
+
+
+  <text x="2" y="12" font-size="12" text-anchor="start" fill="red">0</text>
+  <path d="M256  64 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="68" font-size="12" text-anchor="start" fill="red">64</text>
+  <path d="M256 128 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="132" font-size="12" text-anchor="start" fill="red">128</text>
+  <path d="M256 192 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="196" font-size="12" text-anchor="start" fill="red">192</text>
+  <path d="M256 256 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="260" font-size="12" text-anchor="start" fill="red">256</text>
+  <path d="M256 320 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="324" font-size="12" text-anchor="start" fill="red">320</text>
+  <path d="M256 384 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="388" font-size="12" text-anchor="start" fill="red">384</text>
+  <path d="M256 448 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="452" font-size="12" text-anchor="start" fill="red">448</text>
+  <text x="2" y="510" font-size="12" text-anchor="start" fill="red">512</text>
+
+  <path d="M64  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="58" y="12" font-size="12" text-anchor="start" fill="red">64</text>
+  <path d="M128  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="118" y="12" font-size="12" text-anchor="start" fill="red">128</text>
+  <path d="M195  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="186" y="12" font-size="12" text-anchor="start" fill="red">192</text>
+  <path d="M256  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="246" y="12" font-size="12" text-anchor="start" fill="red">256</text>
+  <path d="M320  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="310" y="12" font-size="12" text-anchor="start" fill="red">320</text>
+  <path d="M384  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="374" y="12" font-size="12" text-anchor="start" fill="red">384</text>
+  <path d="M448  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
+  <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
   
   <!-- 橢圓 -->
   
+		
+  <ellipse fill="#FAFAFA" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
   <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="3" cx="300" cy="67" rx="36" ry="44"/>
-  <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="3" cx="230" cy="67" rx="36" ry="44"/>		
-  <ellipse fill="#00f1" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
+  <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="3" cx="230" cy="67" rx="36" ry="44"/>
   <circle fill="#FF4343" stroke="#000000" stroke-width="2" cx="263.141" cy="100.446" r="32"/>
-   
-  <ellipse fill="#00000" stroke="#000000" stroke-width="3" cx="300" cy="64" rx="8" ry="10"/>	
-  <ellipse fill="#00000" stroke="#000000" stroke-width="3" cx="230" cy="64" rx="8" ry="10"/>
+  
+  <ellipse fill="#00000" stroke="#000000" stroke-width="3" cx="294" cy="64" rx="12" ry="15"/>	
+  <ellipse fill="#00000" stroke="#000000" stroke-width="3" cx="235" cy="64" rx="12" ry="15"/>
+
+<ellipse fill="#FAFAFA" stroke="#FAFAFA" stroke-width="5" cx="292" cy="64" rx="3" ry="5"/>
+<ellipse fill="#FAFAFA" stroke="#FAFAFA" stroke-width="5" cx="238" cy="64" rx="3" ry="5"/>
 
   <path d="M128 100 L200 128" stroke="black" stroke-width="5" />
   <path d="M128 150 L200 150" stroke="black" stroke-width="5" />
   <path d="M128 192 L200 180" stroke="black" stroke-width="5" />
 
-  <path d="M300 140 L400 120" stroke="black" stroke-width="5" />
-  <path d="M300 150 L400 140" stroke="black" stroke-width="5" />
-  <path d="M300 160 L400 190" stroke="black" stroke-width="5" />
-  <path d="M128 200 C192 350, 360 350,400,200" stroke="black" fill="none" stroke-width="5" />
+  <path d="M320 123 L400 120" stroke="black" stroke-width="5" />
+  <path d="M320 150 L400 150" stroke="black" stroke-width="5" />
+  <path d="M320 180 L400 190" stroke="black" stroke-width="5" />
+
+  <path d="M160 240 C192 330, 360 330,384,240" stroke="black" fill="none" stroke-width="5" />
+
+  <path d="M262 133 L262 200" stroke-width="3" stroke="black"/>
+
   <path d="M260 100 V" stroke="black"/>
+  <path d="M160 240 Q200 300, 384 240" stroke-width="6" stroke="black" fill="none"/>
 
 </svg>
   
