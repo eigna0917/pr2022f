@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+  height="512" width="512" viewBox="0 0 512 512">
+
+
+  
+  <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
+
+
+  <text x="2" y="12" font-size="12" text-anchor="start" fill="red">0</text>
+  <path d="M256  64 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="68" font-size="12" text-anchor="start" fill="red">64</text>
+  <path d="M256 128 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="132" font-size="12" text-anchor="start" fill="red">128</text>
+  <path d="M256 192 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="196" font-size="12" text-anchor="start" fill="red">192</text>
+  <path d="M256 256 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="260" font-size="12" text-anchor="start" fill="red">256</text>
+  <path d="M256 320 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="324" font-size="12" text-anchor="start" fill="red">320</text>
+  <path d="M256 384 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="388" font-size="12" text-anchor="start" fill="red">384</text>
+  <path d="M256 448 H0 H512" stroke="lightgray" fill="white"></path>
+  <text x="2" y="452" font-size="12" text-anchor="start" fill="red">448</text>
+  <text x="2" y="510" font-size="12" text-anchor="start" fill="red">512</text>
+
+  <path d="M64  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="58" y="12" font-size="12" text-anchor="start" fill="red">64</text>
+  <path d="M128  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="118" y="12" font-size="12" text-anchor="start" fill="red">128</text>
+  <path d="M195  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="186" y="12" font-size="12" text-anchor="start" fill="red">192</text>
+  <path d="M256  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="246" y="12" font-size="12" text-anchor="start" fill="red">256</text>
+  <path d="M320  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="310" y="12" font-size="12" text-anchor="start" fill="red">320</text>
+  <path d="M384  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="374" y="12" font-size="12" text-anchor="start" fill="red">384</text>
+  <path d="M448  0 V512" stroke="lightgray" fill="white"></path>
+  <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
+  <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
+
+
+  <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
+
+  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
+
+  <!--ellipse fill="#77DD47" stroke="#246614" stroke-width="5" cx="256" cy="270" rx="200" ry="150" opacity="0.2"/-->
+
+  <!-- storke of hello kitty -->
+  <path d="
+     M427 360 A80 56, 0, 1, 1, 88 196 
+     A30 50, 0 0 1, 96 105
+     A96 90, 0 0 1, 180 128
+     A100 25, 0 0 1, 340 128
+     A100 90, 0 0 1, 418 93
+     A100 120, 0 0 1, 435 186
+     A42 100, 0 0 1, 427 360
+  " stroke-width="5" stroke="#B20000" fill="none" opacity="0.6"/>
+
+
+  <circle id="c1" cx="456" cy="256" r="1" stroke="red" fill="none">
+    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle id="c2" cx="56" cy="256" r="1" stroke="red" fill="none">
+    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="0" cy="0" r="1" stroke="blue" fill="none">
+    <animateMotion dur="6s" path ="
+     M427 360 A80 56, 0, 1, 1, 88 196 
+     A30 50, 0 0 1, 96 105
+     A96 90, 0 0 1, 180 128
+     A100 25, 0 0 1, 340 128
+     A100 90, 0 0 1, 418 93
+     A100 120, 0 0 1, 435 186
+     A42 100, 0 0 1, 427 360
+  " repeatCount="indefinite" rotate="auto"/>
+    <animate attributeName="r" to="15" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" to="1" dur="3s" repeatCount="indefinite"/>
+    
+  </circle>
+<polygon fill="#FFABAB" stroke="#000000" stroke-width="5" points="256,192 330,100 360,200"  />
+
+<polygon fill="#FFABAB" stroke="#000000" stroke-width="5" points="360,192 450,200 390,270" />
+<ellipse fill="#B20000" stroke="#000000" stroke-width="5" cx="320" cy="168" rx="20" ry="20"/>
+<ellipse fill="#B20000" stroke="#000000" stroke-width="5" cx="400" cy="192" rx="20" ry="20"/>
+<circle fill="#FF4343" stroke="#000000" stroke-width="5" cx="360.141" cy="192.446" r="44"/>
+  <ellipse fill="#00000" stroke="#000000" stroke-width="3" cx="150" cy="310" rx="13" ry="15"/>
+  <ellipse fill="#00000" stroke="#000000" stroke-width="3" cx="350" cy="310" rx="13" ry="15"/>
+  <ellipse fill="#00000" stroke="#000000" stroke-width="3" cx="256" cy="330" rx="20" ry="15"/>
+  <path d="M20 300 C30 280,30 300,100,300" stroke-width="5" stroke="black" fill="none" ></path>
+  <path d="M30 340 Q64 330, 100 330" stroke-width="5" stroke="black" fill="none"/>
+  <path d="M55 390 Q80 360, 128 360" stroke-width="5" stroke="black" fill="none"/>
+  <path d="M400 290 Q448 280, 500 290"   stroke-width="5" stroke="black" fill="none"/>
+  <path d="M430 320 Q450 330, 490 320" stroke-width="5" stroke="black" fill="none"/>
+  <path d="M400 360 Q420 370, 470 380" stroke-width="5" stroke="black" fill="none"/>
+						
+
+
+    
