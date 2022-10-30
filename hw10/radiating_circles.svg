@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <svg 
@@ -64,7 +63,7 @@
     <animate attributeName="stroke-dashoffset" to="0" begin="1.0s" dur="2.0s" repeatCount="1" fill="freeze"/>
   </circle>
   
-   <circle cx="256" cy="480" r="32" fill="none" stroke=”#FFFF26" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,480)">
+   <circle cx="256" cy="480" r="32" fill="none" stroke="#FFFF26" stroke-width="2" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(90,256,480)">
     <animate attributeName="stroke-dashoffset" to="0" begin="1.0s" dur="2.0s" repeatCount="1" fill="freeze"/>
   </circle>
   
